@@ -1,0 +1,482 @@
+[
+  {
+    "title": "星空の下で",
+    "publicationDate": "2016-01-01",
+    "author": "山田 太郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "春風の記憶",
+    "publicationDate": "2017-02-02",
+    "author": "佐藤 花子",
+    "status": "貸出可"
+  },
+  {
+    "title": "雨の日のカフェ",
+    "publicationDate": "2018-03-03",
+    "author": "鈴木 一郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "遠い海の物語",
+    "publicationDate": "2019-04-04",
+    "author": "高橋 美咲",
+    "status": "貸出可"
+  },
+  {
+    "title": "未来への手紙",
+    "publicationDate": "2020-05-05",
+    "author": "田中 健",
+    "status": "貸出可"
+  },
+  {
+    "title": "森の小さな家",
+    "publicationDate": "2021-06-06",
+    "author": "伊藤 彩",
+    "status": "貸出可"
+  },
+  {
+    "title": "夜明けの街",
+    "publicationDate": "2022-07-07",
+    "author": "渡辺 翔",
+    "status": "貸出可"
+  },
+  {
+    "title": "夏空ノート",
+    "publicationDate": "2023-08-08",
+    "author": "中村 陽子",
+    "status": "貸出可"
+  },
+  {
+    "title": "風の向こう側",
+    "publicationDate": "2016-09-09",
+    "author": "小林 誠",
+    "status": "貸出可"
+  },
+  {
+    "title": "月明かりの約束",
+    "publicationDate": "2017-10-10",
+    "author": "加藤 由美",
+    "status": "貸出可"
+  },
+  {
+    "title": "旅する少年",
+    "publicationDate": "2018-11-11",
+    "author": "山田 太郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "秘密の庭",
+    "publicationDate": "2019-12-12",
+    "author": "佐藤 花子",
+    "status": "貸出可"
+  },
+  {
+    "title": "青い鳥の季節",
+    "publicationDate": "2020-01-13",
+    "author": "鈴木 一郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "時計塔の謎",
+    "publicationDate": "2021-02-14",
+    "author": "高橋 美咲",
+    "status": "貸出可"
+  },
+  {
+    "title": "小さな勇気",
+    "publicationDate": "2022-03-15",
+    "author": "田中 健",
+    "status": "貸出可"
+  },
+  {
+    "title": "銀河鉄道の午後",
+    "publicationDate": "2023-04-16",
+    "author": "伊藤 彩",
+    "status": "貸出可"
+  },
+  {
+    "title": "風船と少女",
+    "publicationDate": "2016-05-17",
+    "author": "渡辺 翔",
+    "status": "貸出可"
+  },
+  {
+    "title": "冬の灯台",
+    "publicationDate": "2017-06-18",
+    "author": "中村 陽子",
+    "status": "貸出可"
+  },
+  {
+    "title": "古書店の一日",
+    "publicationDate": "2018-07-19",
+    "author": "小林 誠",
+    "status": "貸出可"
+  },
+  {
+    "title": "虹色の未来",
+    "publicationDate": "2019-08-20",
+    "author": "加藤 由美",
+    "status": "貸出可"
+  },
+  {
+    "title": "駅前の喫茶店",
+    "publicationDate": "2020-09-21",
+    "author": "山田 太郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "海辺の約束",
+    "publicationDate": "2021-10-22",
+    "author": "佐藤 花子",
+    "status": "貸出可"
+  },
+  {
+    "title": "雲の上の町",
+    "publicationDate": "2022-11-23",
+    "author": "鈴木 一郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "夏祭りの夜",
+    "publicationDate": "2023-12-24",
+    "author": "高橋 美咲",
+    "status": "貸出可"
+  },
+  {
+    "title": "雪国からの手紙",
+    "publicationDate": "2016-01-25",
+    "author": "田中 健",
+    "status": "貸出可"
+  },
+  {
+    "title": "森の探検隊",
+    "publicationDate": "2017-02-26",
+    "author": "伊藤 彩",
+    "status": "貸出可"
+  },
+  {
+    "title": "小さな星の旅",
+    "publicationDate": "2018-03-27",
+    "author": "渡辺 翔",
+    "status": "貸出可"
+  },
+  {
+    "title": "夕暮れの公園",
+    "publicationDate": "2019-04-01",
+    "author": "中村 陽子",
+    "status": "貸出可"
+  },
+  {
+    "title": "古い写真館",
+    "publicationDate": "2020-05-02",
+    "author": "小林 誠",
+    "status": "貸出可"
+  },
+  {
+    "title": "光の階段",
+    "publicationDate": "2021-06-03",
+    "author": "加藤 由美",
+    "status": "貸出可"
+  },
+  {
+    "title": "猫と暮らす町",
+    "publicationDate": "2022-07-04",
+    "author": "山田 太郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "真夜中の図書館",
+    "publicationDate": "2023-08-05",
+    "author": "佐藤 花子",
+    "status": "貸出可"
+  },
+  {
+    "title": "風車の丘",
+    "publicationDate": "2016-09-06",
+    "author": "鈴木 一郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "明日のレシピ",
+    "publicationDate": "2017-10-07",
+    "author": "高橋 美咲",
+    "status": "貸出可"
+  },
+  {
+    "title": "星降る夜の約束",
+    "publicationDate": "2018-11-08",
+    "author": "田中 健",
+    "status": "貸出可"
+  },
+  {
+    "title": "小川のせせらぎ",
+    "publicationDate": "2019-12-09",
+    "author": "伊藤 彩",
+    "status": "貸出可"
+  },
+  {
+    "title": "最後の手紙",
+    "publicationDate": "2020-01-10",
+    "author": "渡辺 翔",
+    "status": "貸出可"
+  },
+  {
+    "title": "旅人の地図",
+    "publicationDate": "2021-02-11",
+    "author": "中村 陽子",
+    "status": "貸出可"
+  },
+  {
+    "title": "朝焼けの町",
+    "publicationDate": "2022-03-12",
+    "author": "小林 誠",
+    "status": "貸出可"
+  },
+  {
+    "title": "花屋の午後",
+    "publicationDate": "2023-04-13",
+    "author": "加藤 由美",
+    "status": "貸出可"
+  },
+  {
+    "title": "海の見える部屋",
+    "publicationDate": "2016-05-14",
+    "author": "山田 太郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "時計を止めた日",
+    "publicationDate": "2017-06-15",
+    "author": "佐藤 花子",
+    "status": "貸出可"
+  },
+  {
+    "title": "虹の向こうへ",
+    "publicationDate": "2018-07-16",
+    "author": "鈴木 一郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "森の音楽会",
+    "publicationDate": "2019-08-17",
+    "author": "高橋 美咲",
+    "status": "貸出可"
+  },
+  {
+    "title": "月夜の散歩道",
+    "publicationDate": "2020-09-18",
+    "author": "田中 健",
+    "status": "貸出可"
+  },
+  {
+    "title": "青空のレンズ",
+    "publicationDate": "2021-10-19",
+    "author": "伊藤 彩",
+    "status": "貸出可"
+  },
+  {
+    "title": "忘れられた駅",
+    "publicationDate": "2022-11-20",
+    "author": "渡辺 翔",
+    "status": "貸出可"
+  },
+  {
+    "title": "夏の終わりに",
+    "publicationDate": "2023-12-21",
+    "author": "中村 陽子",
+    "status": "貸出可"
+  },
+  {
+    "title": "小さなパン屋",
+    "publicationDate": "2016-01-22",
+    "author": "小林 誠",
+    "status": "貸出可"
+  },
+  {
+    "title": "雪解けの森",
+    "publicationDate": "2017-02-23",
+    "author": "加藤 由美",
+    "status": "貸出可"
+  },
+  {
+    "title": "星を集める人",
+    "publicationDate": "2018-03-24",
+    "author": "山田 太郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "雨上がりの虹",
+    "publicationDate": "2019-04-25",
+    "author": "佐藤 花子",
+    "status": "貸出可"
+  },
+  {
+    "title": "海辺の小屋",
+    "publicationDate": "2020-05-26",
+    "author": "鈴木 一郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "午後三時の物語",
+    "publicationDate": "2021-06-27",
+    "author": "高橋 美咲",
+    "status": "貸出可"
+  },
+  {
+    "title": "森の郵便屋さん",
+    "publicationDate": "2022-07-01",
+    "author": "田中 健",
+    "status": "貸出可"
+  },
+  {
+    "title": "夜空のキャンバス",
+    "publicationDate": "2023-08-02",
+    "author": "伊藤 彩",
+    "status": "貸出可"
+  },
+  {
+    "title": "旅の途中で",
+    "publicationDate": "2016-09-03",
+    "author": "渡辺 翔",
+    "status": "貸出可"
+  },
+  {
+    "title": "古時計の秘密",
+    "publicationDate": "2017-10-04",
+    "author": "中村 陽子",
+    "status": "貸出可"
+  },
+  {
+    "title": "春を待つ庭",
+    "publicationDate": "2018-11-05",
+    "author": "小林 誠",
+    "status": "貸出可"
+  },
+  {
+    "title": "風の便り",
+    "publicationDate": "2019-12-06",
+    "author": "加藤 由美",
+    "status": "貸出可"
+  },
+  {
+    "title": "月と少年",
+    "publicationDate": "2020-01-07",
+    "author": "山田 太郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "海を渡る手紙",
+    "publicationDate": "2021-02-08",
+    "author": "佐藤 花子",
+    "status": "貸出可"
+  },
+  {
+    "title": "小さな図書室",
+    "publicationDate": "2022-03-09",
+    "author": "鈴木 一郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "冬空のメロディ",
+    "publicationDate": "2023-04-10",
+    "author": "高橋 美咲",
+    "status": "貸出可"
+  },
+  {
+    "title": "街角の花時計",
+    "publicationDate": "2016-05-11",
+    "author": "田中 健",
+    "status": "貸出可"
+  },
+  {
+    "title": "星のない夜",
+    "publicationDate": "2017-06-12",
+    "author": "伊藤 彩",
+    "status": "貸出可"
+  },
+  {
+    "title": "未来の図書館",
+    "publicationDate": "2018-07-13",
+    "author": "渡辺 翔",
+    "status": "貸出可"
+  },
+  {
+    "title": "風船旅行記",
+    "publicationDate": "2019-08-14",
+    "author": "中村 陽子",
+    "status": "貸出可"
+  },
+  {
+    "title": "森のカフェテラス",
+    "publicationDate": "2020-09-15",
+    "author": "小林 誠",
+    "status": "貸出可"
+  },
+  {
+    "title": "朝の散歩道",
+    "publicationDate": "2021-10-16",
+    "author": "加藤 由美",
+    "status": "貸出可"
+  },
+  {
+    "title": "海と灯台",
+    "publicationDate": "2022-11-17",
+    "author": "山田 太郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "桜の下で",
+    "publicationDate": "2023-12-18",
+    "author": "佐藤 花子",
+    "status": "貸出可"
+  },
+  {
+    "title": "夢見るロボット",
+    "publicationDate": "2016-01-19",
+    "author": "鈴木 一郎",
+    "status": "貸出可"
+  },
+  {
+    "title": "雨音のレコード",
+    "publicationDate": "2017-02-20",
+    "author": "高橋 美咲",
+    "status": "貸出可"
+  },
+  {
+    "title": "遠い日の約束",
+    "publicationDate": "2018-03-21",
+    "author": "田中 健",
+    "status": "貸出可"
+  },
+  {
+    "title": "月明かりの駅",
+    "publicationDate": "2019-04-22",
+    "author": "伊藤 彩",
+    "status": "貸出可"
+  },
+  {
+    "title": "青い海の記憶",
+    "publicationDate": "2020-05-23",
+    "author": "渡辺 翔",
+    "status": "貸出可"
+  },
+  {
+    "title": "森に消えた少女",
+    "publicationDate": "2021-06-24",
+    "author": "中村 陽子",
+    "status": "貸出可"
+  },
+  {
+    "title": "最後の夏休み",
+    "publicationDate": "2022-07-25",
+    "author": "小林 誠",
+    "status": "貸出可"
+  },
+  {
+    "title": "空を見上げて",
+    "publicationDate": "2023-08-26",
+    "author": "加藤 由美",
+    "status": "貸出可"
+  }
+]
