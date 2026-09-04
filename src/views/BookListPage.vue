@@ -6,7 +6,7 @@
             <BookListToolbar/>
 
             <div class="book-grid">
-                <BookCard v-for="n in 6" :key="n" />
+                <BookCard v-for="n in 80" :key="n" />
             </div>
 
             <div class="pagination">
