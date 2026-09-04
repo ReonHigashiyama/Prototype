@@ -6,7 +6,7 @@
             <BookListToolbar/>
 
             <div class="book-grid">
-                <BookCard v-for="n in 80" :key="n" />
+                <BookCard/>
             </div>
 
             <div class="pagination">
@@ -22,6 +22,23 @@
 import AppHeader from '@/components/Common/AppHeader.vue';
 import BookListToolbar from '@/components/book-list/BookListToolbar.vue';
 import BookCard from '@/components/book-list/BookCard.vue';
+
+window.addEventListener('DOMContentLoaded', () => {
+    LoadBooks();
+});
+
+async function LoadBooks() {
+    try {
+        const response = await fetch('../books.json');
+        if (!response.ok) throw new Error(`HTTPエラー! ステータス: ${response.status}`);
+        const books = await response.json();
+        console.log(books);
+    }
+    catch (error) {
+        console.error('読み込みに失敗しました:', error);
+    }
+}
+
 </script>
 
 <style scoped>
