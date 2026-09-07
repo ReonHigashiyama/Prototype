@@ -1,14 +1,24 @@
+<script setup>
+defineProps({
+    books: {
+        type: Array,
+        default: () => []
+    }
+});
+</script>
+
 <template>
-    <div class="book-card">
-        <div class="book-card-img">画像</div>
+    <div class="book-card" v-for="book in books" :key="book.title">
+        <!-- <div class="book-card-img">画像</div> -->
+         <img src="../../../img/images.jpg" width="80" height="80" alt="">
         <div class="book-card-info">
-            <p>タイトル</p>
-            <p>著者</p>
-            <p>出版日</p>
-            <p>ジャンル名</p>
-            <p>ステータス</p>
+            <p>タイトル：{{ book.title }}</p>
+            <p>著者：{{ book.author }}</p>
+            <p>出版日：{{ book.publicationDate }}</p>
+            <p>ジャンル名：{{ book.genre }}</p>
+            <p>ステータス：{{ book.status }}</p>
         </div>
-        <p class="book-card-isbn">ISBN:</p>
+        <p class="book-card-isbn">ISBN：{{ book.isbn }}</p>
     </div>
 </template>
 

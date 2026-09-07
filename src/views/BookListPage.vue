@@ -3,10 +3,10 @@
         <div class="content">
             <h1 class="page-title">蔵書一覧</h1>
 
-            <BookListToolbar/>
+            <BookListToolbar v-model:genre="selectedGenre" v-model:status="selectedStatus"/>
 
             <div class="book-grid">
-                <BookCard/>
+                <BookCard :books="filteredBooks"/>
             </div>
 
             <div class="pagination">
@@ -19,26 +19,38 @@
 </template>
 
 <script setup>
+import { ref, computed, onMounted } from 'vue';
 import AppHeader from '@/components/Common/AppHeader.vue';
 import BookListToolbar from '@/components/book-list/BookListToolbar.vue';
 import BookCard from '@/components/book-list/BookCard.vue';
 
-window.addEventListener('DOMContentLoaded', () => {
-    LoadBooks();
-});
+const books = ref([]);
+const selectedGenre = ref('');
+const selectedStatus = ref('');
 
 async function LoadBooks() {
     try {
-        const response = await fetch('../books.json');
+        const response = await fetch('/books.json');
         if (!response.ok) throw new Error(`HTTPエラー! ステータス: ${response.status}`);
-        const books = await response.json();
-        console.log(books);
+        books.value = await response.json();
+        console.log(books.value);
     }
     catch (error) {
         console.error('読み込みに失敗しました:', error);
     }
 }
 
+onMounted(() => {
+    LoadBooks();
+});
+
+const filteredBooks = computed(() => {
+    return books.value.filter(book => {
+        const genreMatch = selectedGenre.value == '' || book.genre == selectedGenre.value;
+        const statusMatch = selectedStatus.value == '' || book.status == selectedStatus.value;
+        return genreMatch && statusMatch;
+    });
+});
 </script>
 
 <style scoped>
