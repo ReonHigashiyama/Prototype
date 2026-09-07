@@ -1,20 +1,12 @@
 <script setup>
 const genre = defineModel('genre');
 const status = defineModel('status');
+const search = defineModel('search');
 </script>
 
 <template>
     <div class="toolbar">
-        <input type="text" class="search-input" placeholder="検索" />
-
-        <!-- <div class="dropdown">
-            <button type="button" class="dropdown__button">ジャンル▼</button>
-            <ul class="dropdown__menu">
-                <li>社会一般</li>
-                <li>ビジネス</li>
-                <li>資格/試験</li>
-            </ul>
-        </div> -->
+        <input type="text" class="search-input" placeholder="検索" v-model="search" />
 
         <div class="dropdown">
             <select v-model="genre" class="dropdown__button">
@@ -32,15 +24,6 @@ const status = defineModel('status');
                 <option value="恋愛" class="dropdown__menu">恋愛</option>
             </select>
         </div>
-
-        <!-- <div class="dropdown">
-            <button type="button" class="dropdown__button">ステータス▼</button>
-            <ul class="dropdown__menu">
-                <li>貸出可</li>
-                <li>貸出中</li>
-                <li>修理中</li>
-            </ul>
-        </div> -->
 
         <div class="dropdown">
             <select v-model="status" class="dropdown__button">

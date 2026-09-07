@@ -3,7 +3,7 @@
         <div class="content">
             <h1 class="page-title">蔵書一覧</h1>
 
-            <BookListToolbar v-model:genre="selectedGenre" v-model:status="selectedStatus"/>
+            <BookListToolbar v-model:genre="selectedGenre" v-model:status="selectedStatus" v-model:search="searchKeyword"/>
 
             <div class="book-grid">
                 <BookCard :books="filteredBooks"/>
@@ -27,6 +27,7 @@ import BookCard from '@/components/book-list/BookCard.vue';
 const books = ref([]);
 const selectedGenre = ref('');
 const selectedStatus = ref('');
+const searchKeyword = ref('');
 
 async function LoadBooks() {
     try {
@@ -45,10 +46,18 @@ onMounted(() => {
 });
 
 const filteredBooks = computed(() => {
+    const keyword = searchKeyword.value.trim().toLowerCase();
+
     return books.value.filter(book => {
         const genreMatch = selectedGenre.value == '' || book.genre == selectedGenre.value;
         const statusMatch = selectedStatus.value == '' || book.status == selectedStatus.value;
-        return genreMatch && statusMatch;
+        const searchMatch = keyword == '' ||
+            book.title.toLowerCase().includes(keyword) ||
+            book.author.toLowerCase().includes(keyword) ||
+            book.publicationDate.toLowerCase().includes(keyword) ||
+            book.isbn.toLowerCase().includes(keyword) ||
+            book.genre.toLowerCase().includes(keyword);
+        return genreMatch && statusMatch && searchMatch;
     });
 });
 </script>
