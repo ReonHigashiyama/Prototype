@@ -6,28 +6,31 @@
             <BookListToolbar v-model:genre="selectedGenre" v-model:status="selectedStatus" v-model:search="searchKeyword"/>
 
             <div class="book-grid">
-                <BookCard :books="filteredBooks"/>
+                <BookCard :books="paginatedBooks"/>
             </div>
 
             <div class="pagination">
-                <button type="button" class="pagination__button">◀</button>
-                <span class="pagination__label">1/4</span>
-                <button type="button" class="pagination__button">▶</button>
+                <button type="button" class="pagination__button" :disabled="currentPage==1" @click="gotoPrevPage">◀</button>
+                <span class="pagination__label">{{ currentPage }}/{{ totalPages }}</span>
+                <button type="button" class="pagination__button" :disabled="currentPage==totalPages" @click="gotoNextPage">▶</button>
             </div>
         </div>
     </div>
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, onMounted, watch } from 'vue';
 import AppHeader from '@/components/Common/AppHeader.vue';
 import BookListToolbar from '@/components/book-list/BookListToolbar.vue';
 import BookCard from '@/components/book-list/BookCard.vue';
+
+const PAGE_SIZE = 20;
 
 const books = ref([]);
 const selectedGenre = ref('');
 const selectedStatus = ref('');
 const searchKeyword = ref('');
+const currentPage = ref(1);
 
 async function LoadBooks() {
     try {
@@ -60,6 +63,28 @@ const filteredBooks = computed(() => {
         return genreMatch && statusMatch && searchMatch;
     });
 });
+
+//絞り込み結果に応じた総ページ数（最低でも１ページは表示）
+const totalPages = computed(() => {
+    return Math.max(1, Math.ceil(filteredBooks.value.length / PAGE_SIZE));
+});
+
+//現在のページに表示する本だけを切り出す
+const paginatedBooks = computed(() => {
+    const start = (currentPage.value - 1) * PAGE_SIZE;
+    const end = start + PAGE_SIZE;
+    return filteredBooks.value.slice(start, end);
+});
+
+function gotoPrevPage() {
+    if (currentPage.value > 1) currentPage.value--;
+}
+
+function gotoNextPage() {
+    if (currentPage.value < totalPages.value) {
+        currentPage.value++;
+    }
+}
 </script>
 
 <style scoped>
