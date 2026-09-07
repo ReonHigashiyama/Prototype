@@ -1,0 +1,642 @@
+[
+  {
+    "title": "星空の下で",
+    "publicationDate": "2017-02-02",
+    "author": "山田 太郎",
+    "isbn": "9991000000001",
+    "genre": "小説",
+    "status": "貸出中"
+  },
+  {
+    "title": "春風の記憶",
+    "publicationDate": "2018-03-03",
+    "author": "佐藤 花子",
+    "isbn": "9991000000002",
+    "genre": "ファンタジー",
+    "status": "貸出中"
+  },
+  {
+    "title": "雨の日のカフェ",
+    "publicationDate": "2019-04-04",
+    "author": "鈴木 一郎",
+    "isbn": "9991000000003",
+    "genre": "ミステリー",
+    "status": "貸出可"
+  },
+  {
+    "title": "遠い海の物語",
+    "publicationDate": "2020-05-05",
+    "author": "高橋 美咲",
+    "isbn": "9991000000004",
+    "genre": "エッセイ",
+    "status": "貸出中"
+  },
+  {
+    "title": "未来への手紙",
+    "publicationDate": "2021-06-06",
+    "author": "田中 健",
+    "isbn": "9991000000005",
+    "genre": "SF",
+    "status": "貸出可"
+  },
+  {
+    "title": "森の小さな家",
+    "publicationDate": "2022-07-07",
+    "author": "伊藤 彩",
+    "isbn": "9991000000006",
+    "genre": "児童書",
+    "status": "修理中"
+  },
+  {
+    "title": "夜明けの街",
+    "publicationDate": "2023-08-08",
+    "author": "渡辺 翔",
+    "isbn": "9991000000007",
+    "genre": "青春",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "夏空ノート",
+    "publicationDate": "2016-09-09",
+    "author": "中村 陽子",
+    "isbn": "9991000000008",
+    "genre": "恋愛",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "風の向こう側",
+    "publicationDate": "2017-10-10",
+    "author": "小林 誠",
+    "isbn": "9991000000009",
+    "genre": "小説",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "月明かりの約束",
+    "publicationDate": "2018-11-11",
+    "author": "加藤 由美",
+    "isbn": "9991000000010",
+    "genre": "ファンタジー",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "旅する少年",
+    "publicationDate": "2019-12-12",
+    "author": "吉田 翔太",
+    "isbn": "9991000000011",
+    "genre": "ミステリー",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "秘密の庭",
+    "publicationDate": "2020-01-13",
+    "author": "山本 真紀",
+    "isbn": "9991000000012",
+    "genre": "エッセイ",
+    "status": "貸出可"
+  },
+  {
+    "title": "青い鳥の季節",
+    "publicationDate": "2021-02-14",
+    "author": "松本 直樹",
+    "isbn": "9991000000013",
+    "genre": "SF",
+    "status": "貸出中"
+  },
+  {
+    "title": "時計塔の謎",
+    "publicationDate": "2022-03-15",
+    "author": "井上 拓也",
+    "isbn": "9991000000014",
+    "genre": "児童書",
+    "status": "修理中"
+  },
+  {
+    "title": "小さな勇気",
+    "publicationDate": "2023-04-16",
+    "author": "木村 里奈",
+    "isbn": "9991000000015",
+    "genre": "青春",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "銀河鉄道の午後",
+    "publicationDate": "2016-05-17",
+    "author": "森 健太",
+    "isbn": "9991000000016",
+    "genre": "恋愛",
+    "status": "貸出中"
+  },
+  {
+    "title": "風船と少女",
+    "publicationDate": "2017-06-18",
+    "author": "清水 愛",
+    "isbn": "9991000000017",
+    "genre": "小説",
+    "status": "貸出可"
+  },
+  {
+    "title": "冬の灯台",
+    "publicationDate": "2018-07-19",
+    "author": "山口 浩",
+    "isbn": "9991000000018",
+    "genre": "ファンタジー",
+    "status": "貸出可"
+  },
+  {
+    "title": "古書店の一日",
+    "publicationDate": "2019-08-20",
+    "author": "斎藤 恵",
+    "isbn": "9991000000019",
+    "genre": "ミステリー",
+    "status": "貸出中"
+  },
+  {
+    "title": "虹色の未来",
+    "publicationDate": "2020-09-21",
+    "author": "藤田 大輔",
+    "isbn": "9991000000020",
+    "genre": "エッセイ",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "駅前の喫茶店",
+    "publicationDate": "2021-10-22",
+    "author": "山田 太郎",
+    "isbn": "9991000000021",
+    "genre": "SF",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "海辺の約束",
+    "publicationDate": "2022-11-23",
+    "author": "佐藤 花子",
+    "isbn": "9991000000022",
+    "genre": "児童書",
+    "status": "修理中"
+  },
+  {
+    "title": "雲の上の町",
+    "publicationDate": "2023-12-24",
+    "author": "鈴木 一郎",
+    "isbn": "9991000000023",
+    "genre": "青春",
+    "status": "貸出中"
+  },
+  {
+    "title": "夏祭りの夜",
+    "publicationDate": "2016-01-25",
+    "author": "高橋 美咲",
+    "isbn": "9991000000024",
+    "genre": "恋愛",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "雪国からの手紙",
+    "publicationDate": "2017-02-26",
+    "author": "田中 健",
+    "isbn": "9991000000025",
+    "genre": "小説",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "森の探検隊",
+    "publicationDate": "2018-03-27",
+    "author": "伊藤 彩",
+    "isbn": "9991000000026",
+    "genre": "ファンタジー",
+    "status": "貸出可"
+  },
+  {
+    "title": "小さな星の旅",
+    "publicationDate": "2019-04-01",
+    "author": "渡辺 翔",
+    "isbn": "9991000000027",
+    "genre": "ミステリー",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "夕暮れの公園",
+    "publicationDate": "2020-05-02",
+    "author": "中村 陽子",
+    "isbn": "9991000000028",
+    "genre": "エッセイ",
+    "status": "貸出可"
+  },
+  {
+    "title": "古い写真館",
+    "publicationDate": "2021-06-03",
+    "author": "小林 誠",
+    "isbn": "9991000000029",
+    "genre": "SF",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "光の階段",
+    "publicationDate": "2022-07-04",
+    "author": "加藤 由美",
+    "isbn": "9991000000030",
+    "genre": "児童書",
+    "status": "修理中"
+  },
+  {
+    "title": "猫と暮らす町",
+    "publicationDate": "2023-08-05",
+    "author": "吉田 翔太",
+    "isbn": "9991000000031",
+    "genre": "青春",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "真夜中の図書館",
+    "publicationDate": "2016-09-06",
+    "author": "山本 真紀",
+    "isbn": "9991000000032",
+    "genre": "恋愛",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "風車の丘",
+    "publicationDate": "2017-10-07",
+    "author": "松本 直樹",
+    "isbn": "9991000000033",
+    "genre": "小説",
+    "status": "修理中"
+  },
+  {
+    "title": "明日のレシピ",
+    "publicationDate": "2018-11-08",
+    "author": "井上 拓也",
+    "isbn": "9991000000034",
+    "genre": "ファンタジー",
+    "status": "修理中"
+  },
+  {
+    "title": "星降る夜の約束",
+    "publicationDate": "2019-12-09",
+    "author": "木村 里奈",
+    "isbn": "9991000000035",
+    "genre": "ミステリー",
+    "status": "貸出可"
+  },
+  {
+    "title": "小川のせせらぎ",
+    "publicationDate": "2020-01-10",
+    "author": "森 健太",
+    "isbn": "9991000000036",
+    "genre": "エッセイ",
+    "status": "貸出中"
+  },
+  {
+    "title": "最後の手紙",
+    "publicationDate": "2021-02-11",
+    "author": "清水 愛",
+    "isbn": "9991000000037",
+    "genre": "SF",
+    "status": "貸出可"
+  },
+  {
+    "title": "旅人の地図",
+    "publicationDate": "2022-03-12",
+    "author": "山口 浩",
+    "isbn": "9991000000038",
+    "genre": "児童書",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "朝焼けの町",
+    "publicationDate": "2023-04-13",
+    "author": "斎藤 恵",
+    "isbn": "9991000000039",
+    "genre": "青春",
+    "status": "貸出中"
+  },
+  {
+    "title": "花屋の午後",
+    "publicationDate": "2016-05-14",
+    "author": "藤田 大輔",
+    "isbn": "9991000000040",
+    "genre": "恋愛",
+    "status": "修理中"
+  },
+  {
+    "title": "海の見える部屋",
+    "publicationDate": "2017-06-15",
+    "author": "山田 太郎",
+    "isbn": "9991000000041",
+    "genre": "小説",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "時計を止めた日",
+    "publicationDate": "2018-07-16",
+    "author": "佐藤 花子",
+    "isbn": "9991000000042",
+    "genre": "ファンタジー",
+    "status": "貸出中"
+  },
+  {
+    "title": "虹の向こうへ",
+    "publicationDate": "2019-08-17",
+    "author": "鈴木 一郎",
+    "isbn": "9991000000043",
+    "genre": "ミステリー",
+    "status": "修理中"
+  },
+  {
+    "title": "森の音楽会",
+    "publicationDate": "2020-09-18",
+    "author": "高橋 美咲",
+    "isbn": "9991000000044",
+    "genre": "エッセイ",
+    "status": "貸出中"
+  },
+  {
+    "title": "月夜の散歩道",
+    "publicationDate": "2021-10-19",
+    "author": "田中 健",
+    "isbn": "9991000000045",
+    "genre": "SF",
+    "status": "修理中"
+  },
+  {
+    "title": "青空のレンズ",
+    "publicationDate": "2022-11-20",
+    "author": "伊藤 彩",
+    "isbn": "9991000000046",
+    "genre": "児童書",
+    "status": "貸出可"
+  },
+  {
+    "title": "忘れられた駅",
+    "publicationDate": "2023-12-21",
+    "author": "渡辺 翔",
+    "isbn": "9991000000047",
+    "genre": "青春",
+    "status": "貸出可"
+  },
+  {
+    "title": "夏の終わりに",
+    "publicationDate": "2016-01-22",
+    "author": "中村 陽子",
+    "isbn": "9991000000048",
+    "genre": "恋愛",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "小さなパン屋",
+    "publicationDate": "2017-02-23",
+    "author": "小林 誠",
+    "isbn": "9991000000049",
+    "genre": "小説",
+    "status": "修理中"
+  },
+  {
+    "title": "雪解けの森",
+    "publicationDate": "2018-03-24",
+    "author": "加藤 由美",
+    "isbn": "9991000000050",
+    "genre": "ファンタジー",
+    "status": "修理中"
+  },
+  {
+    "title": "星を集める人",
+    "publicationDate": "2019-04-25",
+    "author": "吉田 翔太",
+    "isbn": "9991000000051",
+    "genre": "ミステリー",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "雨上がりの虹",
+    "publicationDate": "2020-05-26",
+    "author": "山本 真紀",
+    "isbn": "9991000000052",
+    "genre": "エッセイ",
+    "status": "貸出中"
+  },
+  {
+    "title": "海辺の小屋",
+    "publicationDate": "2021-06-27",
+    "author": "松本 直樹",
+    "isbn": "9991000000053",
+    "genre": "SF",
+    "status": "貸出可"
+  },
+  {
+    "title": "午後三時の物語",
+    "publicationDate": "2022-07-01",
+    "author": "井上 拓也",
+    "isbn": "9991000000054",
+    "genre": "児童書",
+    "status": "修理中"
+  },
+  {
+    "title": "森の郵便屋さん",
+    "publicationDate": "2023-08-02",
+    "author": "木村 里奈",
+    "isbn": "9991000000055",
+    "genre": "青春",
+    "status": "修理中"
+  },
+  {
+    "title": "夜空のキャンバス",
+    "publicationDate": "2016-09-03",
+    "author": "森 健太",
+    "isbn": "9991000000056",
+    "genre": "恋愛",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "旅の途中で",
+    "publicationDate": "2017-10-04",
+    "author": "清水 愛",
+    "isbn": "9991000000057",
+    "genre": "小説",
+    "status": "修理中"
+  },
+  {
+    "title": "古時計の秘密",
+    "publicationDate": "2018-11-05",
+    "author": "山口 浩",
+    "isbn": "9991000000058",
+    "genre": "ファンタジー",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "春を待つ庭",
+    "publicationDate": "2019-12-06",
+    "author": "斎藤 恵",
+    "isbn": "9991000000059",
+    "genre": "ミステリー",
+    "status": "貸出可"
+  },
+  {
+    "title": "風の便り",
+    "publicationDate": "2020-01-07",
+    "author": "藤田 大輔",
+    "isbn": "9991000000060",
+    "genre": "エッセイ",
+    "status": "貸出可"
+  },
+  {
+    "title": "月と少年",
+    "publicationDate": "2021-02-08",
+    "author": "山田 太郎",
+    "isbn": "9991000000061",
+    "genre": "SF",
+    "status": "貸出中"
+  },
+  {
+    "title": "海を渡る手紙",
+    "publicationDate": "2022-03-09",
+    "author": "佐藤 花子",
+    "isbn": "9991000000062",
+    "genre": "児童書",
+    "status": "修理中"
+  },
+  {
+    "title": "小さな図書室",
+    "publicationDate": "2023-04-10",
+    "author": "鈴木 一郎",
+    "isbn": "9991000000063",
+    "genre": "青春",
+    "status": "貸出中"
+  },
+  {
+    "title": "冬空のメロディ",
+    "publicationDate": "2016-05-11",
+    "author": "高橋 美咲",
+    "isbn": "9991000000064",
+    "genre": "恋愛",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "街角の花時計",
+    "publicationDate": "2017-06-12",
+    "author": "田中 健",
+    "isbn": "9991000000065",
+    "genre": "小説",
+    "status": "貸出中"
+  },
+  {
+    "title": "星のない夜",
+    "publicationDate": "2018-07-13",
+    "author": "伊藤 彩",
+    "isbn": "9991000000066",
+    "genre": "ファンタジー",
+    "status": "貸出中"
+  },
+  {
+    "title": "未来の図書館",
+    "publicationDate": "2019-08-14",
+    "author": "渡辺 翔",
+    "isbn": "9991000000067",
+    "genre": "ミステリー",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "風船旅行記",
+    "publicationDate": "2020-09-15",
+    "author": "中村 陽子",
+    "isbn": "9991000000068",
+    "genre": "エッセイ",
+    "status": "貸出中"
+  },
+  {
+    "title": "森のカフェテラス",
+    "publicationDate": "2021-10-16",
+    "author": "小林 誠",
+    "isbn": "9991000000069",
+    "genre": "SF",
+    "status": "貸出可"
+  },
+  {
+    "title": "朝の散歩道",
+    "publicationDate": "2022-11-17",
+    "author": "加藤 由美",
+    "isbn": "9991000000070",
+    "genre": "児童書",
+    "status": "貸出可"
+  },
+  {
+    "title": "海と灯台",
+    "publicationDate": "2023-12-18",
+    "author": "吉田 翔太",
+    "isbn": "9991000000071",
+    "genre": "青春",
+    "status": "貸出中"
+  },
+  {
+    "title": "桜の下で",
+    "publicationDate": "2016-01-19",
+    "author": "山本 真紀",
+    "isbn": "9991000000072",
+    "genre": "恋愛",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "夢見るロボット",
+    "publicationDate": "2017-02-20",
+    "author": "松本 直樹",
+    "isbn": "9991000000073",
+    "genre": "小説",
+    "status": "貸出中"
+  },
+  {
+    "title": "雨音のレコード",
+    "publicationDate": "2018-03-21",
+    "author": "井上 拓也",
+    "isbn": "9991000000074",
+    "genre": "ファンタジー",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "遠い日の約束",
+    "publicationDate": "2019-04-22",
+    "author": "木村 里奈",
+    "isbn": "9991000000075",
+    "genre": "ミステリー",
+    "status": "貸出可"
+  },
+  {
+    "title": "月明かりの駅",
+    "publicationDate": "2020-05-23",
+    "author": "森 健太",
+    "isbn": "9991000000076",
+    "genre": "エッセイ",
+    "status": "貸出中"
+  },
+  {
+    "title": "青い海の記憶",
+    "publicationDate": "2021-06-24",
+    "author": "清水 愛",
+    "isbn": "9991000000077",
+    "genre": "SF",
+    "status": "貸出可"
+  },
+  {
+    "title": "森に消えた少女",
+    "publicationDate": "2022-07-25",
+    "author": "山口 浩",
+    "isbn": "9991000000078",
+    "genre": "児童書",
+    "status": "修理中"
+  },
+  {
+    "title": "最後の夏休み",
+    "publicationDate": "2023-08-26",
+    "author": "斎藤 恵",
+    "isbn": "9991000000079",
+    "genre": "青春",
+    "status": "停止/廃棄"
+  },
+  {
+    "title": "空を見上げて",
+    "publicationDate": "2016-09-27",
+    "author": "藤田 大輔",
+    "isbn": "9991000000080",
+    "genre": "恋愛",
+    "status": "停止/廃棄"
+  }
+]
