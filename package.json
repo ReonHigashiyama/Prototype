@@ -14,7 +14,8 @@
     "nodemon": "^3.1.14",
     "pg": "^8.23.0",
     "vue": "^3.5.40",
-    "vue-router": "^5.2.0"
+    "vue-router": "^5.2.0",
+    "vuetify": "^4.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.8",
