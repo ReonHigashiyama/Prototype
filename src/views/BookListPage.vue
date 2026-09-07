@@ -85,6 +85,11 @@ function gotoNextPage() {
         currentPage.value++;
     }
 }
+
+//絞り込み条件が変わったら1ページ目に戻す
+watch([selectedGenre, selectedStatus, searchKeyword], () => {
+    currentPage.value = 1;
+});
 </script>
 
 <style scoped>
