@@ -44,7 +44,8 @@ const search = defineModel('search');
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 32px;
+    flex-wrap: wrap;
+    gap: 16px 32px;
     padding: 16px;
 }
 

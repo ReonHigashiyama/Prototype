@@ -114,6 +114,18 @@ watch([selectedGenre, selectedStatus, searchKeyword], () => {
     margin-top: 16px;
 }
 
+@media (max-width: 900px) {
+    .book-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .book-grid {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
 .pagination {
     display: flex;
     align-items: center;

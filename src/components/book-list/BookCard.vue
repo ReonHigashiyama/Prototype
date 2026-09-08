@@ -10,7 +10,7 @@ defineProps({
 <template>
     <div class="book-card" v-for="book in books" :key="book.title">
         <!-- <div class="book-card-img">画像</div> -->
-         <img src="../../../img/images.jpg" width="80" height="80" alt="">
+         <img  class="book-card__image" src="../../../img/images.jpg" alt="">
         <div class="book-card-info">
             <p>タイトル：{{ book.title }}</p>
             <p>著者：{{ book.author }}</p>
@@ -24,38 +24,31 @@ defineProps({
 
 <style scoped>
 .book-card {
-    position: relative;
-    width: 320px;
+    box-sizing: border-box;
+    width: 100%;
     min-height: 180px;
-    border: 2px solid #1a2b4c;
+    /* border: 2px solid #1a2b4c; */
     border-radius: 12px;
     padding: 16px;
     display: grid;
     grid-template-columns: 100px 1fr;
     gap: 12px;
+    background-color: rgb(218, 219, 219);
 }
 
 .book-card__image {
-    width: 100px;
-    height: 100px;
-    background-color: #e0e0e0;
+    width: 140px;
+    height: 140px;
+    /* background-color: #e0e0e0; */
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 16px;
+    padding-top: 70px;
 }
 
-.book-card__info p {
-    margin: 0;
-    font-size: 14px;
-    line-height: 1.6;
+.book-card-info {
+    padding-left: 50px;
 }
 
-.book-card__isbn {
-    position: absolute;
-    bottom: 16px;
-    left: 16px;
-    margin: 0;
-    font-size: 14px;
-}
 </style>
